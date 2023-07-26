@@ -1,0 +1,127 @@
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    p,
+    ul li {
+        font-size: 13px !important;
+    }
+    .logo {
+        top: 45px;
+    }
+    .header-right h3 {
+        font-size: 16px;
+    }
+    .pro-title h2,
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .pro-title {
+        padding: 80px 0 30px;
+    }
+    .des-content h2 {
+        font-size: 20px;
+    }
+    .des-content h3 {
+        font-size: 18px;
+    }
+    .footer-top-right h3 {
+        font-size: 14px;
+    }
+    .footer-top-left {
+        top: 90px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    p,
+    ul li {
+        font-size: 13px !important;
+    }
+    .header-area {
+        height: 300px;
+    }
+    .logo {
+        top: 0;
+        display: block;
+        text-align: center;
+    }
+    .header-right {
+        padding-top: 40px;
+        display: block;
+    }
+    .header-right h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .pro-title {
+        padding: 70px 0 30px;
+    }
+    .pro-title h2 {
+        font-size: 18px;
+    }
+    .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+        left: -14px;
+        top: inherit;
+    }
+    .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+    .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+    .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+    .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+    .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+    .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+    .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+    .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+    .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+    .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+    .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+    .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+        right: -14px;
+        top: inherit;
+    }
+    .navigation {
+        display: none;
+    }
+    .section-title h2 {
+        font-size: 16px;
+    }
+    .des-content {
+        padding: 20px 18px;
+    }
+    .des-content h2 {
+        font-size: 17px;
+    }
+    .des-content ul {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .des-content h3,
+    .footer-top-right h3 {
+        font-size: 15px;
+    }
+    .footer-top-left {
+        top: 0;
+        margin: 30px 50px;
+    }
+    .footer-top-right {
+        top: 0;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .footer-top-left {
+        top: 0;
+        margin: 30px 80px;
+    }
+}
